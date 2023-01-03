@@ -1,0 +1,43 @@
+body {
+  background-image: url("../img/vackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 116px 140px;
+  /* height: 100vh; */
+
+
+}
+
+.container {
+  display: flex;
+  border-radius: 50px;
+
+}
+
+.content {
+  flex-grow: 1;
+  background-color: #084B3E;
+  /* width: 588px; */
+  height: 792px;
+  border-radius: 50px 0px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 50px;
+
+}
+
+.content h2 {
+  font-weight: 500;
+  font-size: 39px;
+  line-height: 45px;
+  letter-spacing: -1px;
+  color: #F9E2BA;
+}
+
+.form-wrap {
+  flex-grow: 3;
+  background-color: white;
+  width: 652px;
+  border-radius: 0px 50px 50px 0px;
+}
