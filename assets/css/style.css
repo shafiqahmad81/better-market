@@ -80,6 +80,7 @@ body {
 
 .service a {
   color: #19B07E;
+  margin-left: 5px;
 }
 
 form {
@@ -134,4 +135,5 @@ button {
   letter-spacing: -0.5625px;
   color: #FFFFFF;
   border: none;
+  cursor: pointer;
 }
