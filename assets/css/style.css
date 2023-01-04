@@ -12,7 +12,6 @@ body {
   background-position: center;
   padding: 116px 140px;
   overflow-x: hidden;
-  height: 100vh;
 
 
 }
@@ -21,13 +20,13 @@ body {
   display: flex;
   border-radius: 50px;
   justify-content: center;
-  height: 792px;
 
 }
 
 .content {
   background-color: #084B3E;
   width: 588px;
+  height: 792px;
   border-radius: 50px 0px 0px 50px;
   display: flex;
   justify-content: space-between;
