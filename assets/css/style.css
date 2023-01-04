@@ -9,9 +9,9 @@ body {
   background-image: url("../img/vackground.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 116px 140px;
   overflow-x: hidden;
-  /* height: 100vh; */
 
 
 }
