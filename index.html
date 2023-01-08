@@ -5,47 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Better market | Signup</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
   </head>
 
   <body>
-    <div class="container">
-      <div class="content">
-        <div class="logo">
-          <img src="./assets/img/better.png" alt="">
+    <main class="main-wrapper d-flex align-center justify-center">
+      <div class="container d-flex flex-wrap">
+        <!-- Beginning greetings section -->
+        <div class="greetings-area d-flex direction-column justify-between">
+          <div class="logo">
+            <img src="./assets/img/better.png" alt="Better market">
+          </div>
+          <h1>Say hello to global food and beverage producers and suppliers, all in one place</h1>
         </div>
-        <h2>Say hello to global food and beverage producers and suppliers, all in one place</h2>
+        <!-- end greetings section -->
+        <!-- Beginning form area -->
+        <div class="form-area d-flex direction-column">
+          <h2>Let's get started <br> with a few simple steps</h2>
+          <div class="form-wrap">
+            <form method="post">
+              <label class="required" for="email">
+                Email
+              </label>
+              <input name="email" id="email" type="email">
+              <label class="required" for="name">
+                Full name
+              </label>
+              <input id="name" name="name" type="text">
+              <label class="required" for="password">
+                Password
+              </label>
+              <input name="password" id="password" type="password">
+              <button class="d-flex align-center justify-center" type="submit">Sign up</button>
+            </form>
+          </div>
+          <div class="footer-text">
+            <p>By signing up, you agree to our <a href="#">Terms of Service.</a> Already have an account? <a href="#" class="text-green">Log in</a></p>
+          </div>
+        </div>
+        <!-- end form area -->
       </div>
-      <div class="form-wrap">
-        <h1>Let's get started with a few simple steps</h1>
-        <div class="form-iner">
-          <form>
-            <label>
-              Email
-              <img src="./assets/img/star.png" alt="Star-icon">
-            </label>
-            <input type="email">
-            <label>
-              Full name
-              <img src="./assets/img/star.png" alt="Star-icon">
-            </label>
-            <input type="text">
-            <label>
-              Password
-              <img src="./assets/img/star.png" alt="Star-icon">
-            </label>
-            <input type="password">
-            <button type="button">Sign up</button>
-          </form>
-        </div>
-        <div class="service">
-          <p>By signing up, you agree to our <span class="terms">Terms of Service.</span> </p>
-          <p>Already have an account? <a href="#">Log in</a></p>
-        </div>
-      </div>
-    </div>
+    </main>
   </body>
 
 </html>
